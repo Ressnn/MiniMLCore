@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+MiniMLCore/Layers.py
+MiniMLCore/Model.py
+MiniMLCore/Neurons.py
+MiniMLCore/Optimizer.py
+MiniMLCore/__init__.py
+minimlcore.egg-info/PKG-INFO
+minimlcore.egg-info/SOURCES.txt
+minimlcore.egg-info/dependency_links.txt
+minimlcore.egg-info/not-zip-safe
+minimlcore.egg-info/top_level.txt
