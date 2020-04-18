@@ -60,4 +60,4 @@ Lets plot them to see if the model is working properly
 ```
 plt.plot(np.arange(0.0,3.14,.01),Model.batch_predict(np.arange(0.0,3.14,.01)))
 ```
-![Figure](GithubAssets/Figure 2020-04-18 182258.png)
+![Figure](/GithubAssets/Figure 2020-04-18 182258.png)
