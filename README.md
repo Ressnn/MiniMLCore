@@ -11,21 +11,21 @@ pip install minimlcore
 ## Getting started
 To get started create a model like so
 ```
-    from MiniMLCore.Model import SequentialModel
-    MyModel = SequentialModel(1)
+from MiniMLCore.Model import SequentialModel
+MyModel = SequentialModel(1)
 ```
 
 From there add the layers that you want to add using
 the model.add function. Add called layers from the layers file
 
 ```
-  from MiniMLCore.Layers import *
-  #MyModel.add(Example Layer Here)
-  MyModel.add(Dense(150))
-  MyModel.add(Relu())
-  MyModel.add(Dense(1))
-  MyModel.add(Sigmoid())
-  MyModel.build()
+from MiniMLCore.Layers import *
+#MyModel.add(Example Layer Here)
+MyModel.add(Dense(150))
+MyModel.add(Relu())
+MyModel.add(Dense(1))
+MyModel.add(Sigmoid())
+MyModel.build()
 ```
 The final Model.build at the end converts the model from an uncompiled
 version to a compiled one that can be trained and can predict values, however
@@ -55,4 +55,7 @@ And make predictions with it too
 ```
 Model.batch_predict(np.arange(0.0,3.14,.01))
 ```
-
+Lets plot them to see if the model is working properly
+```
+plt.plot(np.arange(0.0,3.14,.01),Model.batch_predict(np.arange(0.0,3.14,.01)))
+```
