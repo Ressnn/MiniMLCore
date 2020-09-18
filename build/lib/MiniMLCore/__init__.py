@@ -9,3 +9,4 @@ __all__ = ["MiniMLCore","OperationsManager"]
 from MiniMLCore import OperationsManagers
 from MiniMLCore.OperationsManagers import CPU,GPU
 from MiniMLCore import *
+

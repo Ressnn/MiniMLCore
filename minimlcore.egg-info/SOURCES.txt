@@ -1,9 +1,9 @@
 setup.cfg
 setup.py
 MiniMLCore/Layers.py
+MiniMLCore/Losses.py
 MiniMLCore/Model.py
-MiniMLCore/Neurons.py
-MiniMLCore/Optimizer.py
+MiniMLCore/Optimizers.py
 MiniMLCore/__init__.py
 minimlcore.egg-info/PKG-INFO
 minimlcore.egg-info/SOURCES.txt
