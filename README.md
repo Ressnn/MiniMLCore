@@ -1,6 +1,7 @@
 # MiniMLCore
 
-Welcome to the MiniMLCore project. This project is meant to be a small and simple machine learning framework. 
+
+Welcome to the MiniMLCore project (0.2.1). This project is meant to be a small and simple machine learning framework. 
 PyPI link:https://pypi.org/project/minimlcore/0.2.1/
 ## Installation
 To install the MiniMLCore type the command below into command prompt
