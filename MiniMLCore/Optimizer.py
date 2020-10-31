@@ -3,7 +3,7 @@ import numpy as np
 from itertools import islice 
 
 class Losses():
-    "A Generala class for losses"
+    "A General class for losses"
     def __init__():
         pass
 
