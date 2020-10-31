@@ -46,7 +46,8 @@ class MeanSquaredError(Losses):
 
         """
         return 2*(expected-outputs)
-
+    def train(self,inputs,outputs,epochs=1):
+        pass
 
 class GradientOptimizer():
     """A class to calculate the gradients needed for the optimizers to compute the best course of action"""
